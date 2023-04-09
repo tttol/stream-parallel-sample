@@ -1,2 +1,2 @@
 # stream-parallel-sample
-Stream API `parallel`のサンプルコード
+Stream API `parallel()`のサンプルコード
