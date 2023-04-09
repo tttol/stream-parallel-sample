@@ -17,9 +17,9 @@ public class ParallelTest {
 
     private long runParallel() {
         var startTime = System.currentTimeMillis();
-        log.info("[START] runParallel[%d]".formatted(startTime));
+        log.info("[START] runParallel");
 
-        IntStream.range(0, 10).parallel().forEach(e -> {
+        IntStream.range(0, 5).parallel().forEach(e -> {
             try {
                 sleep(e);
             } catch (InterruptedException ex) {
