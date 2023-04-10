@@ -6,8 +6,8 @@ import java.util.stream.IntStream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class ParallelTest {
-    private final Logger log = Logger.getLogger(ParallelTest.class.getName());
+public class SimpleParallelTest {
+    private final Logger log = Logger.getLogger(SimpleParallelTest.class.getName());
 
     @Test
     @DisplayName("並列処理が直列処理よりも高速に処理できていること")
